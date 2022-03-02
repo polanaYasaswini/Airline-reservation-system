@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Reservation</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body style="background-image:url('backgrounf.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+    <div class="header">
+        <nav id="navbar">
+            <h class="air">Airline Reservation</h>
+            <ul id="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#ticket">TICKET RESERVATION</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#feedback">FEED BACK</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+   
+    </div>
+</br>
+</br>
+
+    <div class="wrapper">
+        <div class="title">Registration form
+
+        </div>
+    <div class="form">
+        <div class="inputfield">
+            <label>Login Name:</label>
+            <input type="text" name="my name" id="name" class="input" placeholder="USER-NAME"/>
+
+        </div>
+    
+    
+    <div class="inputfield">
+        <label>Source:</label>
+        <input list="name of your country" class="input" name="country name"/>
+        <datalist id="name of your country">
+            <option value="India" selected>India</option>
+            <option value="china">china</option>
+            <option value="combodia">combodia</option>
+            <option value="Autralia">Autralia</option>
+            <option value="Germany">Germany</option>
+            <option value="Greece">Greece</option>
+            <option value="France">France</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Algeria">Algeria</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Austria">Austria</option>
+            <option value="Canada">Canada</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Afganisthan">Afganisthan</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Burkina Faso">Burkina Faso</option>
+            <option value="Belarus">Belarus</option>
+            <option value="chad">chad</option>
+            <option value="Angola">Angola</option>
+            <option value="America">America</option>
+
+        </datalist>
+    </div>
+
+    <div class="inputfield">
+        <label>Destination:</label>
+        <input list="name of the country" class="input"/>
+        <datalist id="name of the country" >
+            <option value="India" selected>India</option>
+            <option value="china">china</option>
+            <option value="combodia">combodia</option>
+            <option value="Autralia">Autralia</option>
+            <option value="Germany">Germany</option>
+            <option value="Greece">Greece</option>
+            <option value="France">France</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Algeria">Algeria</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Austria">Austria</option>
+            <option value="Canada">Canada</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Afganisthan">Afganisthan</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Burkina Faso">Burkina Faso</option>
+            <option value="Belarus">Belarus</option>
+            <option value="chad">chad</option>
+            <option value="Angola">Angola</option>
+            <option value="America">America</option>
+
+        </datalist>
+
+
+    </div>
+
+    <div class="inputfield">
+       <label>Date:</label>
+        <input type="date" name="date" class="input"/>
+    </div>
+
+<div class="inputfield">
+    <label>Time:</label>
+    <input type="time" name="my date" class="input"/>
+</div>
+</br>
+<div class="inputfield">
+    <input type="submit" class="btn" value="Register"/>
+</div>
+    </div>
+    </div>
+    <div class="paragraph">
+        <p class="par1">Click Here to <a href="#modified" style="text-decoration-color: white;">Modified</a> users Airline Reservation Data</p>
+        <br>
+     
+        <p class="par2">Click Here to <a href="#delete" style="text-decoration-color:white;">Delete</a> users Airline Reservation Data</p>
+</div>
+ <script>
+     var navbar=document.getElementById("navbar");
+     var menu=document.getElementById("menu");
+     window.onscroll=function(){
+         if(window.pageYOffset>=menu.offsetTop)
+         {
+             navbar.classList.add("sticky");
+         }
+         else{
+             navbar.classList.remove("sticky");
+         }
+     }
+ </script>
+    
+    
+</body>
+</html>

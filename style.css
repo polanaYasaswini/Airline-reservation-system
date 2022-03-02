@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.air{
+    width: 300px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+nav ul{
+    background-color: #000;
+    width: 100%;
+    margin-top: 10px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: #fff;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav.sticky{
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: padding 1s;
+}
+nav sticky ul{
+    width: auto;
+}
+h{
+    font-size: 25px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+    padding: 30px;
+}
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper .form{
+    width: 100%;
+    
+}
+.wrapper .form .inputfield{
+    align-items:center;
+    display: flex;
+    margin-bottom: 15px;
+    
+
+}
+.wrapper .form .inputfield label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.wrapper .form .inputfield .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.wrapper .form .inputfield .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #fec107;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.wrapper .form .inputfield .btn:hover{
+    background: #ffd658;
+}
+.paragraph{
+    width: 100%;
+}
+.paragraph .par1{
+   
+    text-align: center;
+    margin: 10px 0;
+    padding-top: 5px;
+    
+}
+.paragraph .par2{
+    text-align: center;
+}
+
+
+
